@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap");
+/* Font dan body dasar */
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', 'Montserrat', sans-serif;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0a0a23;
+  position: relative;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffc107;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-left: auto;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 4px 0;
+  display: block;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: auto;
+  align-items: center;
+}
+nav button {
+  background-color: #ffc107;
+  color: #0a0a23;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0.50rem 1.1rem;
+  border: none;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav input[type="search"] {
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffc107;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.topup-btn {
+  display: inline-block;
+  background-color: #ffc107;
+  color: #0a0a23;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.topup-btn:hover {
+  background-color: #e0a800;
+}
+.games-section {
+  padding: 2rem;
+}
+
+.games-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.game-card {
+  background: #1f1f3f;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.game-card span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+.login-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #1f1f3f;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 1.5rem;
+  color: #ffc107;
+  font-size: 1.8rem;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.login-container label {
+  text-align: left;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.login-container input {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-container button {
+  background-color: #ffc107;
+  color: #0a0a23;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.login-container p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.login-container a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.reg-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #1f1f3f;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.reg-container h2 {
+  margin-bottom: 1.5rem;
+  color: #ffc107;
+  font-size: 1.8rem;
+}
+
+.reg-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reg-container label {
+  text-align: left;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.reg-container input {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.reg-container button {
+  background-color: #ffc107;
+  color: #0a0a23;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.reg-container p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.reg-container a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.reg-container a:hover {
+  text-decoration: underline;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+
+  nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #0a0a23;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  nav.show {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}
+
+/* Center header/nav for desktop */
+@media (min-width: 1024px) {
+  header {
+    justify-content: center;
+  }
+
+  .logo {
+    position: absolute;
+    left: 2rem;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  nav {
+    justify-content: center;
+    position: static;
+    flex-direction: row;
+    background: none;
+    width: auto;
+    padding: 0;
+  }
+
+  nav input[type="search"] {
+    margin-left: 1rem;
+  }
+}

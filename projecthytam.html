@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waroenk Topup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      nav.classList.toggle('show');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo">Waroenk Topup</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <a href="gamemobile.html">Game Mobile</a>
+      <a href="metodepembayaran.html">Metode Pembayaran</a>
+      <a href="#">Promo</a>
+      <a href="loginweb.html"><button>Login</button></a>
+      <input type="search" placeholder="Cari" />
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Waroenk Topup</h1>
+    <p>Pilihan utama untuk top up game Anda! Dengan harga terbaik dan proses yang cepat, kami menjamin kenyamanan dan keamanan transaksi Anda.</p>
+    <a href="#gamecard" class="topup-btn">Top Up →</a>
+  </section>
+
+  <section class="games-section">
+    <h2>Game Mobile</h2>
+    <div class="games-grid">
+      <div class="game-card">
+        <img src="https://i.namu.wiki/i/KsxK2e1P0EeaMbBq_twhTLB6dYij9adyP8Khp-i6KsjKle2yQR7bdCt5poI2_OqEOrSt9zpSEGLQ2IycfX7FDuhiAtuyCmXmDKA55mqAvmI0j41uHoowvNhzNEomntVRSX-HOZSPR0UUYdZ0TBrx99GnQKWeQ6S46t5TTll7kGk.jpg" alt="PUBG Mobile">
+        <span>PUBG Mobile</span>
+      </div>
+      <div class="game-card">
+        <img src="https://play-lh.googleusercontent.com/LByrur1mTmPeNr0ljI-uAUcct1rzmTve5Esau1SwoAzjBXQUby6uHIfHbF9TAT51mgHm=w480-h960-rw" alt="Clash of Clans">
+        <span>Clash of Clans</span>
+      </div>
+      <div class="game-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Free_fire.jpg" alt="Free Fire">
+        <span>Free Fire</span>
+      </div>
+      <div class="game-card">
+        <img src="https://scontent-cgk2-1.xx.fbcdn.net/v/t39.30808-6/331366406_1196178384367582_5655911762428918015_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=FREP2iI9irQQ7kNvwEVhkS5&_nc_oc=AdnltGVcuZFgQh4n5195ixHIm_BLA53ywW8-LFG5BC7axlSPdC9LZ1F7erMuIcKbQ-U&_nc_zt=23&_nc_ht=scontent-cgk2-1.xx&_nc_gid=KKpCCekQyA2to5t4Q-zn2Q&oh=00_AfJJ8ZkuP0TagMDp_KrlprFcNJbnoIehvDFygnflQEQTLg&oe=682A6500" alt="Honor of Kings">
+        <span>Honor of Kings</span>
+      </div>
+      <div class="game-card">
+        <img src="https://i.pinimg.com/736x/c9/13/7e/c9137e7a2879f90e22df9fc5cd3bf85f.jpg" alt="Mobile Legend">
+        <span>Mobile Legend</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
