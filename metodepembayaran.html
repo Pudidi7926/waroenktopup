@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waroenk Topup | Metode Pembayaran</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Metode Pembayaran - Waroenk Topup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <header>
+    <div class="logo">TopUpMaster</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="#digital-wallet">Dompet Digital</a>
+      <a href="#bank-transfer">Transfer Bank</a>
+      <a href="#retail">Retail/Alfamart</a>
+      <input type="search" placeholder="Cari metode..." />
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Metode Pembayaran</h1>
+    <p>Kami mendukung berbagai metode pembayaran agar transaksi Anda semakin mudah dan nyaman.</p>
+  </section>
+
+  <section class="games-section" id="digital-wallet">
+    <h2>Dompet Digital</h2>
+    <div class="games-grid">
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Dana_logo.svg" alt="DANA"><span>DANA</span></div>
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Logo_OVO_Payment.svg" alt="OVO"><span>OVO</span></div>
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/id/3/3b/Logo_Gopay.svg" alt="GoPay"><span>GoPay</span></div>
+    </div>
+  </section>
+
+  <section class="games-section" id="bank-transfer">
+    <h2>Transfer Bank</h2>
+    <div class="games-grid">
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/id/8/88/Logo_Bank_BCA.svg" alt="BCA"><span>BCA</span></div>
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/id/3/37/Logo_Bank_BRI.svg" alt="BRI"><span>BRI</span></div>
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/id/f/f2/Logo_Bank_Mandiri.svg" alt="Mandiri"><span>Mandiri</span></div>
+    </div>
+  </section>
+
+  <section class="games-section" id="retail">
+    <h2>Retail</h2>
+    <div class="games-grid">
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Alfamart.svg" alt="Alfamart"><span>Alfamart</span></div>
+      <div class="game-card"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Indomaret_logo.svg" alt="Indomaret"><span>Indomaret</span></div>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      nav.classList.toggle('show');
+    }
+  </script>
 </body>
 </html>
