@@ -266,62 +266,59 @@ nav input[type="search"] {
 
 /* Section khusus top up PUBG Mobile */
 .pubg-topup-section {
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   background-color: #1f1f3f;
-  color: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
 }
 
 .pubg-topup-section h2 {
   text-align: center;
+  color: #ffc107;
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #ffc107;
-}
-
-.pubg-topup-container {
-  max-width: 500px;
-  margin: 0 auto;
-  background-color: #2c2c54;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .pubg-topup-form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .pubg-topup-form label {
   font-weight: 600;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .pubg-topup-form input,
 .pubg-topup-form select {
   padding: 0.7rem;
-  font-size: 1rem;
   border-radius: 6px;
   border: none;
+  font-size: 1rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .pubg-topup-form button {
   background-color: #ffc107;
   color: #0a0a23;
-  padding: 0.75rem;
-  font-weight: bold;
-  font-size: 1rem;
+  padding: 0.8rem;
   border: none;
   border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .pubg-topup-form button:hover {
   background-color: #e0a800;
 }
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .hero h1 {

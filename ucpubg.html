@@ -20,31 +20,43 @@
     <h2>Top Up PUBG Mobile</h2>
     <div class="pubg-topup-container">
       <form class="pubg-topup-form">
-        <label for="pubg-id">Masukkan Player ID:</label>
-        <input type="text" id="pubg-id" name="pubg-id" placeholder="Contoh: 123456789" required />
-
-        <label for="pubg-nickname">Nickname (opsional):</label>
-        <input type="text" id="pubg-nickname" name="pubg-nickname" placeholder="Nama panggilan di game" />
-
-        <label for="pubg-nominal">Pilih Nominal UC:</label>
-        <select id="pubg-nominal" name="pubg-nominal">
-          <option value="63">63 UC - Rp15.000</option>
-          <option value="125">125 UC - Rp30.000</option>
-          <option value="340">340 UC - Rp75.000</option>
-          <option value="690">690 UC - Rp150.000</option>
-        </select>
-
-        <label for="pubg-payment">Pilih Metode Pembayaran:</label>
-        <select id="pubg-payment" name="pubg-payment">
-          <option value="dana">DANA</option>
-          <option value="ovo">OVO</option>
-          <option value="gopay">GoPay</option>
-          <option value="shopeepay">ShopeePay</option>
-        </select>
-
-        <button type="submit">Lanjutkan Pembayaran</button>
+        <!-- STEP 1 -->
+        <div class="topup-step">
+          <h3>1. Masukkan Player ID</h3>
+          <input type="text" id="pubg-id" name="pubg-id" placeholder="Contoh: 123456789" required />
+          <small>Pastikan ID yang Anda masukkan benar</small>
+        </div>
+  
+        <!-- STEP 2 -->
+        <div class="topup-step">
+          <h3>2. Pilih Nominal UC</h3>
+          <div class="uc-options">
+            <label><input type="radio" name="uc" value="63" /> 63 UC - Rp15.000</label>
+            <label><input type="radio" name="uc" value="125" /> 125 UC - Rp30.000</label>
+            <label><input type="radio" name="uc" value="340" /> 340 UC - Rp75.000</label>
+            <label><input type="radio" name="uc" value="690" /> 690 UC - Rp150.000</label>
+          </div>
+        </div>
+  
+        <!-- STEP 3 -->
+        <div class="topup-step">
+          <h3>3. Pilih Metode Pembayaran</h3>
+          <div class="payment-options">
+            <label><input type="radio" name="payment" value="dana" /> DANA</label>
+            <label><input type="radio" name="payment" value="ovo" /> OVO</label>
+            <label><input type="radio" name="payment" value="gopay" /> GoPay</label>
+            <label><input type="radio" name="payment" value="shopeepay" /> ShopeePay</label>
+          </div>
+        </div>
+  
+        <!-- STEP 4 -->
+        <div class="topup-step">
+          <h3>4. Konfirmasi</h3>
+          <button type="submit">Lanjutkan Pembayaran</button>
+        </div>
       </form>
     </div>
   </section>
+  
 </body>
 </html>
