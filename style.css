@@ -296,7 +296,7 @@ nav input[type="search"] {
 
 .pubg-topup-form input[type="text"],
 .pubg-topup-form select {
-  width: 95%;
+  width: 90%;
   padding: 0.75rem 1rem;
   border-radius: 8px;
   border: none;
@@ -346,7 +346,7 @@ nav input[type="search"] {
 .nominal-options input[type="radio"]:checked + .nominal-card {
   background: #ffc107;
   color: #0a0a23;
-  box-shadow: 0 0 10px #ffc107;
+  box-shadow: 0 0 10px #0772ff;
 }
 
 .okegas {
