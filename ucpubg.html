@@ -4,37 +4,47 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Waroenk Topup - PUBG Mobile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <div class="logo">Waroenk Topup</div>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="#pubgtopup">Topup PUBG</a>
+    </nav>
   </header>
 
-  <section class="login-container">
-    <h2>PUBG Mobile : Unknown Cash</h2> <!-- Ganti nama game sesuai kebutuhan -->
-    <form>
-      <label for="user-id">User ID</label>
-      <input type="text" id="user-id" name="user-id" placeholder="Masukkan User ID" required>
+  <section class="pubg-topup-section" id="pubgtopup">
+    <h2>Top Up PUBG Mobile</h2>
+    <div class="pubg-topup-container">
+      <form class="pubg-topup-form">
+        <label for="pubg-id">Masukkan Player ID:</label>
+        <input type="text" id="pubg-id" name="pubg-id" placeholder="Contoh: 123456789" required />
 
-      <label for="nominal">Pilih Nominal</label>
-      <select id="nominal" name="nominal">
-        <option value="10">10 UC</option>
-        <option value="50">50 UC</option>
-        <option value="100">100 UC</option>
-        <option value="500">500 UC</option>
-      </select>
+        <label for="pubg-nickname">Nickname (opsional):</label>
+        <input type="text" id="pubg-nickname" name="pubg-nickname" placeholder="Nama panggilan di game" />
 
-      <label for="pembayaran">Metode Pembayaran</label>
-      <select id="pembayaran" name="pembayaran">
-        <option value="dana">DANA</option>
-        <option value="ovo">OVO</option>
-        <option value="gopay">GoPay</option>
-        <option value="shopeepay">ShopeePay</option>
-      </select>
+        <label for="pubg-nominal">Pilih Nominal UC:</label>
+        <select id="pubg-nominal" name="pubg-nominal">
+          <option value="63">63 UC - Rp15.000</option>
+          <option value="125">125 UC - Rp30.000</option>
+          <option value="340">340 UC - Rp75.000</option>
+          <option value="690">690 UC - Rp150.000</option>
+        </select>
 
-      <button type="submit">Top Up Sekarang</button>
-    </form>
+        <label for="pubg-payment">Pilih Metode Pembayaran:</label>
+        <select id="pubg-payment" name="pubg-payment">
+          <option value="dana">DANA</option>
+          <option value="ovo">OVO</option>
+          <option value="gopay">GoPay</option>
+          <option value="shopeepay">ShopeePay</option>
+        </select>
+
+        <button type="submit">Lanjutkan Pembayaran</button>
+      </form>
+    </div>
   </section>
 </body>
 </html>
