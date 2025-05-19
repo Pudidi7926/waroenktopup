@@ -381,6 +381,7 @@ nav input[type="search"] {
   font-size: 1.1rem;
   line-height: 1.6;
   margin: 0 auto 2rem;
+  max-width: 600px;
 }
 
 /* Responsive styles */
