@@ -368,7 +368,10 @@ nav input[type="search"] {
   background-color: #e0a800;
 }
 
-
+.errorcok {
+  justify-content: center;
+  align-items: center;
+}
 /* Responsive styles */
 @media (max-width: 768px) {
   .hero h1 {
