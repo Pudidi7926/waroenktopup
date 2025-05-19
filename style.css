@@ -380,6 +380,7 @@ nav input[type="search"] {
   display: flex;
   font-size: 1.1rem;
   line-height: 1.6;
+  margin: 0 auto 2rem;
 }
 
 /* Responsive styles */
