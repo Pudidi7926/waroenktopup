@@ -372,6 +372,13 @@ nav input[type="search"] {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-bottom: 1rem;
+}
+.errorcok p {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 1.1rem;
 }
 
 /* Responsive styles */
