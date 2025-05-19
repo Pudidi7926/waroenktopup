@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Waroenk Topup - 404 Error</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Waroenk Topup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      nav.classList.toggle('show');
+    }
+  </script>
 </head>
 <body>
+  <header>
+    <div class="logo">Waroenk Topup</div>
+    <button class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
     <nav>
-        <a href="gamemobile.html">Game Mobile</a>
-        <a href="metodepembayaran.html">Metode Pembayaran</a>
-        <a href="#">Promo</a>
-        <a href="loginweb.html"><button>Login</button></a>
-        <input type="search" placeholder="Cari" />
-      </nav>
-      
-    <section class="errorcok">
-        <h2>Halaman Ini Tak Ditemukan atau Belum Dibuat</h2>
-        <h3>Mohon Bersabar, Kalau Gak Sabar Pantatnya Gedhe</h3>
-    </section>
+      <a href="gamemobile.html">Game Mobile</a>
+      <a href="metodepembayaran.html">Metode Pembayaran</a>
+      <a href="#">Promo</a>
+      <a href="loginweb.html"><button>Login</button></a>
+      <input type="search" placeholder="Cari" />
+    </nav>
+  </header>
+
+  <section class="errorcok">
+    <h1>Halaman Ini Tak Ditemukan Atau Belum Dibuat</h1>
+    <h3>Mohon Bersabar, Kalau Gak Sabaran Pantatnya Gedhe</h3>
+  </section>
 </body>
 </html>

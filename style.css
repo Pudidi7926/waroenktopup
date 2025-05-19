@@ -368,11 +368,12 @@ nav input[type="search"] {
   background-color: #e0a800;
 }
 
-.errorcok h2 {
+.errorcok h1 {
   justify-content: center;
   align-items: center;
   display: flex;
 }
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .hero h1 {
