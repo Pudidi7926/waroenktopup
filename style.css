@@ -378,7 +378,8 @@ nav input[type="search"] {
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-bottom: 1.1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 /* Responsive styles */
